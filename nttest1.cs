@@ -54,7 +54,7 @@ namespace NinjaTrader.NinjaScript.Indicators.nttest
 		protected override void OnBarUpdate()
 		{
 			//Add your custom indicator logic here.
-			TestPlot1[0] = Close[0] + OffsetValue;
+			TestPlot1[0] = Close[0] * OffsetValue;
 		}
 
 		#region Properties
